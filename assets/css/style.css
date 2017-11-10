@@ -86,3 +86,7 @@ margin-top: 5%;
   display: inline;
   color: #175676;
 }
+
+.nav-pills > li > a.active {
+    background-color: #ff0000!important;
+}
