@@ -1,3 +1,5 @@
+/* Body */
+
 html, body {
   width: 100%;
   height: 100%;
@@ -9,6 +11,8 @@ html, body {
 a {
   color: red;
 }
+
+/* Sections */
 
 .header {
   position: relative;
@@ -42,10 +46,6 @@ a {
 margin-top: 5%;
 }
 
-#social {
-	margin-top: 5%;
-}
-
 .text-vertical-center {
   display: table-cell;
   text-align: center;
@@ -56,9 +56,6 @@ margin-top: 5%;
 		1px -1px 0 #000,
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
-}
-
-a.socialLink {
 }
 
  #map {
@@ -84,10 +81,57 @@ a.socialLink {
 	margin-bottom: 60px;
 }
 
+/* Skills icons */
+
 .skills-icons {
   font-size: 3rem;
   display: inline;
   color: #175676;
+  }
+
+.devicons-html5:hover{
+  color: #A4C439;
+  transition: color 0.5s ease;
+}
+
+.devicons-css3:hover{
+  color: #713E5A;
+  transition:  color 0.5s ease;
+}
+
+.devicons-javascript:hover{
+  color: #49A078;
+  transition:  color 0.5s ease;
+}
+
+.devicons-jquery:hover{
+  color: #3B8EA5;
+  transition:  color 0.5s ease;
+}
+
+.devicons-bootstrap:hover{
+  color: #AB3428;
+  transition:  color 0.5s ease;
+}
+
+.devicons-wordpress:hover{
+  color: #5C573E;
+  transition:  color 0.5s ease;
+}
+
+.devicons-github:hover{
+  color: #9BA7C0;
+  transition:  color 0.5s ease;
+}
+
+.devicons-chrome:hover{
+  color: #713E5A;
+  transition:  color 0.5s ease;
+}
+
+.devicons-ubuntu:hover{
+  color: #63A375;
+  transition:  color 0.5s ease;
 }
 
 .nav-pills > li > a.active {
